@@ -1,6 +1,6 @@
 class CameraControls {
    constructor(canvas) {
-      this.canvas = canvas;
+      this.canvas = canvas;  //Camera controls class
       this.ctx = canvas.getContext("2d");
 
       this.tmpCanvas = document.createElement("canvas");
